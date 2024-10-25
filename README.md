@@ -1,3 +1,3 @@
 # OHCS-Dashboard
 
-Dashboard for review by ICF stakeholders - Megan Meier is owner. 
+Applications progress dashboard for ReOregon - Megan Meier is owner. 
