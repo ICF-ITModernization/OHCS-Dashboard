@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OHCS - Eligible Questionnaires Dashboard</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- Tableau Embedding API -->
     <script type="module" src="https://tableau.awsicf-i2dev.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
 </head>
 <body>
-<script type='module' src='https://tableau.awsicf-i2dev.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://tableau.awsicf-i2dev.com/t/OHCS/views/OHCS_DRAFT/CuestinoariosEligibles' width='1000' height='1463' toolbar='bottom' ></tableau-viz>
+    <!-- Tableau Visualization Embed -->
+    <tableau-viz 
+        id="tableau-viz" 
+        src="https://tableau.awsicf-i2dev.com/#/site/OHCS/workbooks/59" 
+        width="1000" 
+        height="1463" 
+        toolbar="bottom">
+    </tableau-viz>
 </body>
 </html>
